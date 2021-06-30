@@ -6,7 +6,7 @@ from time import strftime
 root = tk.Tk()
 # Var
 WIDTH = 700
-HEIGHT = 400
+HEIGHT = 300
 # set title
 root.title("Digital Clock")
 # set icon
@@ -26,7 +26,7 @@ def time():
 
 # Add To Screen
 label = Label(root, font=("DS-Digital", 100), background="black", foreground="#25ee00")
-label.place(x=30, y=120)
+label.place(x=30, y=70)
 # Call The Function
 time()
 # Close The Loop
